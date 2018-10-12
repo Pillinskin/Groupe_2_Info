@@ -43,7 +43,7 @@ int recherchedicho(Ensemble E,int x)
 
 }
 
-void appartient_gr_02(int x,int *T1,int s1,int n1)
+int appartient_gr_02(int x,int *T1,int s1,int n1)
 {
     Ensemble UnEnsemble;
     UnEnsemble.E=T1,UnEnsemble.taille=s1,UnEnsemble.nbelement=n1;
@@ -52,10 +52,11 @@ void appartient_gr_02(int x,int *T1,int s1,int n1)
         printf("%d n'appartient pas a l'ensemble\n",x);
     else
         printf("%d appartient a l'ensemble\n",x);
+    return result;
 
 }
 
-void inclus_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2)
+int inclus_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2)
 {
     Ensemble E1,E2;
     E1.E=T1,E1.taille=s1,E1.nbelement=n1;
@@ -68,6 +69,7 @@ void inclus_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2)
         printf("Le premier ensemble n'est pas inclus dans le deuxieme\n");
     else
         printf("Le premier ensemble est inclus dans le deuxieme\n");
+    return result;
 
 }
 
