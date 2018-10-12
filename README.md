@@ -5,4 +5,3 @@ Charly	MENTHILLER
 Lionel	CORDAS
 Valentin	EL ALLAM
 Jules	FAUVET
-Muhammad	BIN MOHD SHUKRI
