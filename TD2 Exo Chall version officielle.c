@@ -71,7 +71,7 @@ void inclus_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2)
 
 }
 
-void union_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2, int *T3,int s3,int n3)
+void union_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2, int *T3,int s3,int *n3)
 {
     Ensemble E1,E2,E3;
     E1.E=T1,E1.taille=s1,E1.nbelement=n1;
@@ -100,7 +100,7 @@ void union_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2, int *T3,int s3,int
 	affichage(E3);
 }
 
-void inter_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2, int *T3,int s3,int n3)
+void inter_gr_02(int *T1,int s1,int n1,int *T2,int s2,int n2, int *T3,int s3,int *n3)
 {
     Ensemble E1,E2,E3;
     E1.E=T1,E1.taille=s1,E1.nbelement=n1;
